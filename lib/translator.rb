@@ -7,6 +7,7 @@ def load_library(path)
   jap = {}
   a.each do |key, val|
     eng[key] => val[0]
+    jap[key] => val[1]
   end
   return a
 end
