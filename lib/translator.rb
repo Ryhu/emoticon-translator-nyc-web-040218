@@ -2,7 +2,7 @@ require 'yaml'
 # require modules here
 
 def load_library(path)
-  a = yaml.load("emoticons.yml")
+  a = YAML.load_file("emoticons.yml")
 
   return a
 end
