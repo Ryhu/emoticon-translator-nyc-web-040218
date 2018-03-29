@@ -1,7 +1,8 @@
 # require modules here
 
 def load_library(path)
-  # code goes here
+  result = {}
+  return result
 end
 
 def get_japanese_emoticon
