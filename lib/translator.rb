@@ -6,8 +6,8 @@ def load_library(path)
   eng = {}
   jap = {}
   a.each do |key, val|
-    eng[key] => val[0]
-    jap[key] => val[1]
+    eng[key] = val[0]
+    jap[key] = val[1]
   end
   result = Hash["get_meaning", eng, "get_emoticon", jap]
   return result
