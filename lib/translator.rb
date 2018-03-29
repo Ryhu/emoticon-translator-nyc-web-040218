@@ -2,9 +2,9 @@ require 'yaml'
 # require modules here
 
 def load_library(path)
-  a = yaml.load(emoticons.yml)
+  a = yaml.load("emoticons.yml")
   result = {'get_meaning' => ,'get_emoticon' =>}
-  return result
+  return a
 end
 
 def get_japanese_emoticon
