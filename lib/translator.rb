@@ -10,7 +10,7 @@ def load_library(path)
     jap[key] => val[1]
   end
   result = {"get_meaning" => eng, "get_emoticon" => jap}
-  return 
+  return result
 end
 
 def get_japanese_emoticon
