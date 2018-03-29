@@ -9,7 +9,7 @@ def load_library(path)
     eng[key] = val[0]
     jap[key] = val[1]
   end
-  result = Hash["get_meaning", eng, "get_emoticon", jap]
+  result = Hash["get_meaning", jap, "get_emoticon", eng]
   return result
 end
 
