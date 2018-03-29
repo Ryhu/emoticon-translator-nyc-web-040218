@@ -1,7 +1,7 @@
 # require modules here
 
 def load_library(path)
-  result = {}
+  result = {'get_meaning' => ,'get_emoticon' =>}
   return result
 end
 
