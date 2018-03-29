@@ -9,7 +9,7 @@ def load_library(path)
     eng[key] => val[0]
     jap[key] => val[1]
   end
-  result = {"get_meaning" => eng, "get_emoticon" => jap}
+  result = {"get_meaning" = eng, "get_emoticon" = jap}
   return 
 end
 
